@@ -1,0 +1,85 @@
+textarea {
+    min-height: 400px;
+}
+
+#button_false {
+    display: block;
+    width: 100%;
+    height: 30px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+#button_true {
+    display: block;
+    width: 100%;
+    height: 30px;
+    border: 1px solid black;
+    background-color: #ccc;
+}
+
+#button_false:hover {
+    background-color: #f0f0f0;
+}
+
+#button_true:hover {
+    background-color: lightgray;
+}
+
+#div {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative; 
+}
+
+#sender {
+    margin-right: auto;
+}
+
+#subject {
+    position: absolute; 
+    left: 30%; 
+}
+
+#timestamp {
+    margin-left: auto;
+}
+
+#div_email {
+    display: block;
+}
+
+#sender_title, #recipients_title, #subject_title, #timestamp_title, #body_title {
+    font-weight: bold;
+}
+
+#email {
+    display: block;
+    padding: 10px;
+    border: 1px solid #c3c6cc;
+}
+
+#archive {
+    margin-right: 1%;
+    margin-top: 1%;
+    background-color: #FF5733; /* A shade of orange-red */
+    font-weight: bold;
+    border-radius: 3px;
+    border: 2px solid black;
+}
+
+#reply {
+    background-color: #4CAF50; /* A shade of green */
+    font-weight: bold;
+    border-radius: 3px;
+    border: 2px solid black;
+}
+
+#archive:hover {
+    background-color: #FFA07A; /* Light Salmon */
+}
+
+#reply:hover {
+    background-color: #98FB98; /* Pale Green */
+}
